@@ -1,0 +1,236 @@
+
+body {
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+   color: #111;
+     }
+
+  header.navbar {
+   display: flex;
+ justify-content: space-between;
+  align-items: center;
+   padding: 20px 60px;
+  background-color: #ffffff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+font-size: 24px;
+ font-weight: bold;
+color: #28A69A;
+}
+
+.menu a {
+margin: 0 15px;
+text-decoration: none;
+color: #333;
+font-weight: 500;
+}
+
+.auth-buttons button {
+margin-left: 10px;
+padding: 8px 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+                                                                                              font-weight: 600;
+                                                                                              }
+
+                                                                                              .login {
+                                                                                                  background-color: transparent;
+                                                                                                      color: #28A69A;
+                                                                                                          border: 2px solid #28A69A;
+                                                                                                          }
+
+                                                                                                          .signup {
+                                                                                                              background-color: #28A69A;
+                                                                                                                  color: white;
+                                                                                                                  }
+
+                                                                                                                  .hero {
+                                                                                                                      display: grid;
+                                                                                                                          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                                                                                                                              align-items: center;
+                                                                                                                                  padding: 60px;
+                                                                                                                                      background: linear-gradient(135deg, #e0fff4 50%, #ffffff 50%);
+                                                                                                                                      }
+
+                                                                                                                                      .hero-text h1 {
+                                                                                                                                          font-size: 2.5rem;
+                                                                                                                                              margin-bottom: 15px;
+                                                                                                                                                  color: #000;
+                                                                                                                                                  }
+
+                                                                                                                                                  .hero-text p {
+                                                                                                                                                      margin-bottom: 20px;
+                                                                                                                                                          line-height: 1.6;
+                                                                                                                                                          }
+
+                                                                                                                                                          .store-buttons img {
+                                                                                                                                                              width: 120px;
+                                                                                                                                                                  margin-right: 10px;
+                                                                                                                                                                  }
+
+                                                                                                                                                                  .features {
+                                                                                                                                                                      padding: 60px;
+                                                                                                                                                                          text-align: center;
+                                                                                                                                                                          }
+
+                                                                                                                                                                          .features h2 {
+                                                                                                                                                                              font-size: 2rem;
+                                                                                                                                                                                  margin-bottom: 40px;
+                                                                                                                                                                                      color: #222;
+                                                                                                                                                                                      }
+
+                                                                                                                                                                                      .features-grid {
+                                                                                                                                                                                          display: grid;
+                                                                                                                                                                                              grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                                                                                                                                                                                                  gap: 30px;
+                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                  .feature-item {
+                                                                                                                                                                                                      background-color: #e0fff4;
+                                                                                                                                                                                                          padding: 20px;
+                                                                                                                                                                                                              border-radius: 10px;
+                                                                                                                                                                                                                  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                  .feature-item img {
+                                                                                                                                                                                                                      width: 50px;
+                                                                                                                                                                                                                          margin-bottom: 10px;
+                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                          .how {
+                                                                                                                                                                                                                              padding: 60px;
+                                                                                                                                                                                                                                  background-color: #f0fdfa;
+                                                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                      .how h2 {
+                                                                                                                                                                                                                                          margin-bottom: 20px;
+                                                                                                                                                                                                                                              color: #222;
+                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                              .how ol {
+                                                                                                                                                                                                                                                  text-align: left;
+                                                                                                                                                                                                                                                      max-width: 600px;
+                                                                                                                                                                                                                                                          margin: 0 auto 40px;
+                                                                                                                                                                                                                                                              line-height: 1.8;
+                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                              .phone-img {
+                                                                                                                                                                                                                                                                  width: 200px;
+                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                  .testimonials {
+                                                                                                                                                                                                                                                                      padding: 60px;
+                                                                                                                                                                                                                                                                          background-color: #ffffff;
+                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                          .testimonials-grid {
+                                                                                                                                                                                                                                                                              display: grid;
+                                                                                                                                                                                                                                                                                  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                                                                                                                                                                                                                                                                                      gap: 30px;
+                                                                                                                                                                                                                                                                                          margin-top: 30px;
+                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                          .testimonial {
+                                                                                                                                                                                                                                                                                              background-color: #e0fff4;
+                                                                                                                                                                                                                                                                                                  padding: 20px;
+                                                                                                                                                                                                                                                                                                      border-radius: 10px;
+                                                                                                                                                                                                                                                                                                          font-style: italic;
+                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                          .faq {
+                                                                                                                                                                                                                                                                                                              padding: 60px;
+                                                                                                                                                                                                                                                                                                                  background-color: #f0fdfa;
+                                                                                                                                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                                                      .faq-box p {
+                                                                                                                                                                                                                                                                                                                          background-color: #c8f0e0;
+                                                                                                                                                                                                                                                                                                                              padding: 15px;
+                                                                                                                                                                                                                                                                                                                                  border-radius: 8px;
+                                                                                                                                                                                                                                                                                                                                      margin: 10px auto;
+                                                                                                                                                                                                                                                                                                                                          max-width: 500px;
+                                                                                                                                                                                                                                                                                                                                              font-weight: 500;
+                                                                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                                                                              .footer {
+                                                                                                                                                                                                                                                                                                                                                  background-color: #28A69A;
+                                                                                                                                                                                                                                                                                                                                                      color: white;
+                                                                                                                                                                                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                                                                                                                                                                                              padding: 30px;
+                                                                                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                                                                                              .footer-icons img {
+                                                                                                                                                                                                                                                                                                                                                                  width: 25px;
+                                                                                                                                                                                                                                                                                                                                                                      margin: 0 8px;
+                                                                                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                                                                                      
+}navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Left Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a69a;
+  }
+  .logo span {
+    color: #111;
+  }
+  
+  /* Center Navigation */
+  .menu {
+    display: flex;
+    gap: 25px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    color: #28a69a;
+  }
+  
+  /* Right Buttons */
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login {
+    background: transparent;
+    color: #28a69a;
+    border: 2px solid #28a69a;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .signup {
+    background: #28a69a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+menu{
+    display: flex;
+    gap: 10px;
+}
